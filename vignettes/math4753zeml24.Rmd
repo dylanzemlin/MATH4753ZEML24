@@ -1,0 +1,34 @@
+---
+title: "MATH4753ZEML24"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{math4753zeml24}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753ZEML24)
+```
+
+# Available Functions
+## customplot.R
+## fire.R
+## myboot2.R
+## mycltb.R
+## myncurve.R
+## mynrml.R
+## myquad.R
+## ntickets.R
+## plotsamples.R
+
+# Available Data
+## FIRE Dataset
+The FIRE dataset is a dataset with 15 measurements and 2 columns. The first column is the cost of the fire, and the second column is the distance to the nearest fire station. In short, this dataset is a collection of fires and the distances from those fires to the nearest fire station.
